@@ -57,7 +57,7 @@ class Terminal extends Component {
                     <Flex sx={{flex: 2, padding: '10px', width: '100%', flexDirection: 'column', flexWrap: 'wrap'}}>
                         <Text sx={{fontFamily: 'B612 Mono', color: 'white', fontSize: '18px', width: '100%'}}>$ <span class={'typing'} style={ {overflowWrap: 'break-word'}}></span></Text>
                         <br />
-                        <Text id={'json-response'} sx={{width: '100%', fontFamily: 'B612 Mono', color: 'white', fontSize: '18px', visibility: 'hidden'}}>{json}</Text>
+                        <Text id={'json-response'} sx={{width: '100%', fontFamily: 'B612 Mono', color: 'white', fontSize: '18px', visibility: 'hidden', overflowWrap: 'break-word'}}>{json}</Text>
                     </Flex>
                 </Flex>
             </Flex>

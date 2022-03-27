@@ -117,7 +117,7 @@ function App() {
                         <Image src={sectionLogo} mb={'10px'} width={'35px'}/>
                     </Flex>
                     <H2Header>Enterprise Grade Reliability</H2Header>
-                    <BodyText>Tight SLAs, built by the team that has shipped services to millions of users and served billions of requests</BodyText>
+                    <BodyText>Tight SLAs. Built by a team that has shipped services to millions of users and served billions of requests</BodyText>
                 </Flex>
                 <Flex
                     sx={{
@@ -142,7 +142,10 @@ function App() {
                 width={['100%', '900px']}
                 justifyContent={'center'}
             >
-                <BodyText>Made with 🔨 by Polyweave</BodyText>
+                <BodyText>
+                    <Link href={'https://twitter.com/PolyweaveAPI'} target={'_blank'} sx={{color: 'black', margin: '5px'}}><i className="fa-brands fa-twitter"></i></Link>
+                    <Link href={'mailto:contact@polyweave.xyz'} target={'_blank'} sx={{color: 'black', margin: '5px'}}><i className="fa-solid fa-envelope"></i></Link>
+                </BodyText>
             </Flex>
         </Flex>
     );
